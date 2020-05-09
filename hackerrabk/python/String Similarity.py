@@ -31,7 +31,7 @@ for t_itr in range(t):
                 c += z[i]
             else:
                 L = i
-                while R < n and s[R-L] == s[R]:
+                while R < n and char_array[R-L] == char_array[R]:
                     R += 1
                 z.append(R-L)
                 c += z[i]
